@@ -35,6 +35,9 @@ function tree(t){
     return tree(t.left) + t.value + tree(t.right)
 }
 ```
+
+- Answer: it adds the values of the left and right tree
+
 5. Height of a BST
 Write an algorithm to find the height of a binary search tree. What is the time complexity of your algorithm?
 

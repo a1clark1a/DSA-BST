@@ -8,7 +8,14 @@ function main() {
         BST.insert(n);
     })
     
-    //console.log(BST)
+    
+    
+    console.log(BST)
+    
+    BST.remove(3);
+    console.log(BST)
+    
+    
     const BST2 = new BinarySearchTree;
     const word =['E', 'A', 'S', 'Y', 'Q', 'U', 'E', 'S', 'T', 'I', 'O','N']
     
@@ -16,7 +23,13 @@ function main() {
        BST2.insert(letter)
    })
     
-    console.log(BST2)
+   // console.log(BST2)
+    
+}
+
+function heighOfTree(tree) {
+    
+    
 }
 
 main();
